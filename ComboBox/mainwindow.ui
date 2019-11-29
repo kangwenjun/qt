@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1119</width>
-    <height>548</height>
+    <width>767</width>
+    <height>435</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -85,21 +85,21 @@
        <x>10</x>
        <y>20</y>
        <width>312</width>
-       <height>53</height>
+       <height>60</height>
       </rect>
      </property>
      <layout class="QVBoxLayout" name="verticalLayout">
       <item>
        <layout class="QHBoxLayout" name="horizontalLayout">
         <item>
-         <widget class="QPushButton" name="btnInitList">
+         <widget class="QPushButton" name="btnInitItems">
           <property name="text">
            <string>初始化列表</string>
           </property>
          </widget>
         </item>
         <item>
-         <widget class="QPushButton" name="btnClearList">
+         <widget class="QPushButton" name="btnClearItems">
           <property name="text">
            <string>清除列表</string>
           </property>
@@ -154,7 +154,7 @@
        </layout>
       </item>
       <item>
-       <widget class="QComboBox" name="comboUser"/>
+       <widget class="QComboBox" name="comboCityZone"/>
       </item>
      </layout>
     </widget>
@@ -165,7 +165,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1119</width>
+     <width>767</width>
      <height>23</height>
     </rect>
    </property>
